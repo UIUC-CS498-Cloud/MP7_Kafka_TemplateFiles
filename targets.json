@@ -4,8 +4,8 @@
         "job": "jmx"
       },
       "targets": [
-        "<your-kafka-broker-client-here>:11001",
-        "<your-kafka-broker-client-here>:11001"
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11001",
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11001"
       ]
     },
     {
@@ -13,8 +13,8 @@
         "job": "node"
       },
       "targets": [
-        "<your-kafka-broker-client-here>:11002",
-        "<your-kafka-broker-client-here>:11002"
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11002",
+        "<your-kafka-broker-client-here-remove-the-port-9098>:11002"
       ]
     }
   ]
