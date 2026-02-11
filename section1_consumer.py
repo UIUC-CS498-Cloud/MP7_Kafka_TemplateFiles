@@ -23,7 +23,9 @@ load_list = []
 def consume():
     """
     This endpoint simulates a message consumer:
-    - Accepts POST requests with JSON payload.
+    - Accepts POST requests with JSON payload. 
+      The JSON payload is of the format {"message": "load-i"}, where i is the message counter. 
+      You may use this for logging purposes only.
     - Simulates CPU usage (e.g., looping or math operations).
     - Optionally simulates memory usage by appending to a global list.
     - Sleeps for a short time to simulate delay.
