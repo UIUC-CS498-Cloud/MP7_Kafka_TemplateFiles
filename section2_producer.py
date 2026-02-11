@@ -37,6 +37,9 @@ app = Flask(__name__)
 # =======================
 @app.route("/produce", methods=["POST"])
 def produce():
+   '''
+   The jSON payload has the format {"topic": <TOPIC-NAME>, "message": <MESSAGE>}
+   '''
     #code here
 
 # =======================
